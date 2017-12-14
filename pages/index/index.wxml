@@ -1,0 +1,20 @@
+<import src="../../module/search/search.wxml"/>
+<view class='pageindex'>
+  <view class='headpage'>
+    <view class='search'>
+      <view class='searchinput searchinputicon' data-pageindex="1"  bindtap='searchpagedo'>
+        {{searchtext?searchtext:'输入你需要搜索的内容'}}
+      </view>
+    </view>
+    <view class='scroll_list'>
+      <scroll-view class="scroll-lm" scroll-x style="width: 100%">
+        <view id="green" class="scroll-view-item_H bc_green">1111</view>
+        <view id="red"  class="scroll-view-item_H bc_red">2222</view>
+        <view id="yellow" class="scroll-view-item_H bc_yellow">333</view>
+        <view id="blue" class="scroll-view-item_H bc_blue">4444</view>
+      </scroll-view>
+    </view>
+  </view>
+ 
+  <template is="searchmodel" data="{{...searchpage}}" />
+</view>
