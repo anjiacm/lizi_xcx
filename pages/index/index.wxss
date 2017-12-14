@@ -1,0 +1,58 @@
+@import "../../common/font/font.wxss";
+@import "../../module/search/search.wxss";
+.pageindex {
+  width: 750rpx;
+  height: 100%;
+  min-height: 1440rpx;
+  overflow-x: hidden;
+
+  --border:2rpx solid #000;
+}
+/*头部内容*/
+.headpage{
+  width: 750rpx;
+  height: 220rpx;
+  box-shadow: 0rpx 5rpx 3rpx rgba(62, 68, 65, 0.5);
+  position: fixed;
+}
+.headpage .search{
+  width: 750rpx;
+  height: 100rpx;
+  --border: 1rpx solid #000;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-family:'Microsoft YaHei UI','Microsoft Yahei','Microsoft Jhenghei','icomoon',helvetica,tahoma,arial,sans-serif; 
+}
+.headpage .search .searchinput{
+  width: 500rpx;
+  height: 70rpx;
+  border: 1rpx solid rgba(170, 177 , 179, 0.8);
+  border-radius: 20rpx;
+  background-color:rgba(242, 249, 246, 0.2);
+  font-size: 32rpx;
+  text-indent: 20rpx;
+  color:#8a9599;
+  --text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.searchinputicon::before{
+  content: '\e93a';
+}
+/*栏目滚动区域*/
+.headpage .scroll_list{
+  width: 750rpx;
+  height: 100rpx;
+  border: 1rpx solid #000;
+   position: fixed;
+}
+
+
+
+/*栏目滚动区域结束*/
