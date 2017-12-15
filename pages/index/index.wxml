@@ -7,14 +7,32 @@
       </view>
     </view>
     <view class='scroll_list'>
-      <scroll-view class="scroll-lm" scroll-x style="width: 100%">
-        <view id="green" class="scroll-view-item_H bc_green">1111</view>
-        <view id="red"  class="scroll-view-item_H bc_red">2222</view>
-        <view id="yellow" class="scroll-view-item_H bc_yellow">333</view>
-        <view id="blue" class="scroll-view-item_H bc_blue">4444</view>
+      <scroll-view class="scroll_lm" scroll-x >
+        <view  class="view_res" style='border-bottom: 8rpx solid #29da6d;'>
+           最新推荐
+        </view> 
       </scroll-view>
     </view>
   </view>
- 
+  <view class='indexpage' hidden="{{pageshow==1?true:false}}">
+    <view class='cuxiao'>
+      <scroll-view class="scroll_cu_list" scroll-x >
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+         <view  class="view_list" >
+            
+        </view> 
+        <view  class="view_list" >
+            
+        </view> 
+        <view  class="view_list" >
+            
+        </view> 
+      </scroll-view>
+    </view>
+    <view class='all_list'></view>
+  </view>
   <template is="searchmodel" data="{{...searchpage}}" />
 </view>

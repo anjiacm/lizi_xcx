@@ -10,6 +10,7 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     searchtext: '',
+    pageshow:'',
     searchpage:{
       pageshow:'',
       searchtext:'',
@@ -22,6 +23,7 @@ Page({
     var pageshow = event.currentTarget.dataset.pageindex;
     var that = this;
     that.setData({
+      pageshow: pageshow,
       searchpage: {
         pageshow: pageshow,
       },
