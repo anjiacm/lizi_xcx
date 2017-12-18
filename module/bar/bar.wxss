@@ -1,0 +1,59 @@
+/*菜单栏*/
+.barbtn{
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  --border: 1rpx solid #000;
+  font-family:'Microsoft YaHei UI','Microsoft Yahei','Microsoft Jhenghei','icomoon',helvetica,tahoma,arial,sans-serif; 
+}
+.barbtn .btn_page{
+ 
+  width:150rpx;
+  height: 80rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn_page .btn_icon{
+  width: 70rpx;
+  height: 50rpx;
+  --border: 1rpx solid #000;
+  text-align: center;
+  padding-bottom: 10rpx;
+} 
+
+.btn_one::after{
+  content: '\e91d';
+  font-size: 50rpx;
+}
+.btn_two::after{
+  content: '\e905';
+  font-size: 50rpx;
+}
+.btn_three::after{
+  content: '\e910';
+  font-size: 50rpx;
+}
+.btn_four::after{
+  content: '\e925';
+  font-size: 50rpx;
+}
+
+.btn_page .btn_name{
+  width: 150rpx;
+  height: 30rpx;
+  --border: 1rpx solid #000;
+  font-size: 24rpx;
+  margin-left: 5rpx;
+  letter-spacing: 6rpx;
+  text-align: center;
+} 

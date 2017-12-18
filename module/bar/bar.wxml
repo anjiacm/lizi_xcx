@@ -1,0 +1,20 @@
+<template name="bar">
+<view class='barbtn'>
+  <view class='btn_page' style="color:#29da6d">
+    <view class='btn_icon btn_one'></view>
+    <view class='btn_name'>首页</view>
+  </view>
+   <view class='btn_page' style="color:#aab1b3">
+    <view class='btn_icon btn_two'></view>
+    <view class='btn_name'>所有宝贝</view>
+  </view>
+     <view class='btn_page' style="color:#aab1b3">
+    <view class='btn_icon btn_three'></view>
+    <view class='btn_name'>逛逛</view>
+  </view>
+     <view class='btn_page' style="color:#aab1b3">
+    <view class='btn_icon btn_four'></view>
+    <view class='btn_name'>个人中心</view>
+  </view>
+</view>
+</template>

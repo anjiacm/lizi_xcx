@@ -1,0 +1,9 @@
+<template name="scroll_list">
+<view class='scroll_list'>
+  <scroll-view class="scroll_lm" scroll-x >
+    <view  class="view_res" style='border-bottom: 8rpx solid #29da6d;'>
+        最新推荐
+    </view> 
+  </scroll-view>
+</view>
+</template>

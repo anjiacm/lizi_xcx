@@ -1,0 +1,26 @@
+<template name="scrollpage">
+<view class='cuxiao'>
+      <scroll-view class="scroll_cu_list" scroll-x >
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+        <view  class="view_list" >
+            <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_view' mode="aspectFill"></image>
+            <view>促销：1888</view>
+        </view> 
+      </scroll-view>
+    </view>
+</template>

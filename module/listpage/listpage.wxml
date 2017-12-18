@@ -1,0 +1,52 @@
+<template name="listpage">
+  <view class='all_list'>
+      <view class='onelist'>
+        <view class='list_img'>
+         <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_btn' mode="aspectFill"></image>
+        </view>
+        <view class='list_text'>
+          <view class='title'>
+          啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费胜多负少的发生放单独对方答复
+          </view>
+          <view class='content'>
+           啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费
+          </view>
+          <view class='go_btn'>
+          查看详情
+          </view>
+        </view>
+      </view>
+      <view class='onelist'>
+        <view class='list_img'>
+         <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_btn' mode="aspectFill"></image>
+        </view>
+        <view class='list_text'>
+          <view class='title'>
+          啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费胜多负少的发生放单独对方答复
+          </view>
+          <view class='content'>
+           啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费
+          </view>
+          <view class='go_btn'>
+          查看详情
+          </view>
+        </view>
+      </view>
+      <view class='onelist'>
+        <view class='list_img'>
+         <image src='http://bpic.588ku.com/back_pic/04/58/61/0658690ca1c3074.jpg!ww400' class='img_btn' mode="aspectFill"></image>
+        </view>
+        <view class='list_text'>
+          <view class='title'>
+          啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费胜多负少的发生放单独对方答复
+          </view>
+          <view class='content'>
+           啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费
+          </view>
+          <view class='go_btn'>
+          查看详情
+          </view>
+        </view>
+      </view>
+    </view>
+</template>

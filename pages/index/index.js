@@ -29,6 +29,8 @@ Page({
       },
     });
      
+  },
+  onReachBottom: function () {
+    console.log('c');
   }
-  
 })

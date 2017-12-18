@@ -32,7 +32,7 @@
   align-items: center;
 }
 .searchpage .goback::after{
-  content: '\e94d';
+  content: '\e908';
   color: #8a9599;
   font-size: 50rpx;
 

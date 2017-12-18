@@ -1,0 +1,31 @@
+/*栏目滚动区域*/
+.headpage .scroll_list{
+  width: 750rpx;
+  height: 100rpx;
+  --border: 1rpx solid #000;
+}
+.scroll_list .scroll_lm{
+  width: 750rpx;
+  height: 100rpx;
+  overflow: hidden;
+  display: flex;
+  display:-webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  
+}
+.scroll_lm .view_res{
+ 
+  height: 94rpx;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+  line-height: 100rpx;
+  display: inline-block;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  
+}
+ 
+/*栏目滚动区域结束*/
