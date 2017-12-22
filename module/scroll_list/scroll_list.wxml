@@ -1,7 +1,7 @@
 <template name="scroll_list">
 <view class='scroll_list'>
   <scroll-view class="scroll_lm" scroll-x >
-    <view  class="view_res" style='border-bottom: 8rpx solid #29da6d;'>
+    <view  class="view_res" style='border-bottom: 8rpx solid #f45864;'>
         最新推荐
     </view> 
   </scroll-view>

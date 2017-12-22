@@ -71,18 +71,18 @@
 }
 .list_text .go_btn{
   width: 350rpx;
-  height: 70rpx;
-  background: #29da6d;
+  height: 60rpx;
+  background: #f45864;
   border-radius: 60rpx;
   text-align: center;
-  font-size: 32rpx;
+  font-size: 28rpx;
   letter-spacing: 8rpx;
   color: #fff;
-  line-height: 70rpx;
+  line-height: 60rpx;
   margin-top: 50rpx;
 }
 .list_text .go_btn::after{
   content: '\e949';
-  font-size: 28rpx;
+  font-size: 24rpx;
 }
 /*产品列表结束*/

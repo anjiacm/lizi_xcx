@@ -1,6 +1,6 @@
 <template name="bar">
 <view class='barbtn'>
-  <view class='btn_page' style="color:#29da6d">
+  <view class='btn_page' style="color:#f45864">
     <view class='btn_icon btn_one'></view>
     <view class='btn_name'>首页</view>
   </view>

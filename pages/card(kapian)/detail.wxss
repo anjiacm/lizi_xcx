@@ -1,0 +1,97 @@
+page{  
+  background:#E0E0E0;  
+  margin: 0 auto;
+  position: fixed;
+}  
+.aaa{    
+  text-align: center;  
+  width: 85%;  
+  margin: 40rpx;  
+  height: 250rpx;  
+  display: inline-block;  
+  }  
+.card_wrap .card_item {  
+  position: absolute;  
+  width: 80%;  
+}  
+.card_wrap .card_item span.change_icon image {  
+  position: absolute;  
+  width: 70rpx;  
+  height: 21rpx;  
+  top: 128rpx;  
+  left: 305rpx;  
+  box-shadow:none;  
+}  
+.card_wrap .card_item .card_info {  
+  position: absolute;  
+  margin-top: 220rpx;  
+  left: 128rpx;  
+}  
+  
+.card_wrap .card_item.card1 {  
+  transform: translateY(90rpx) translateX(50rpx);  
+  z-index: 3  
+}  
+.card_wrap .card_item.card2 {  
+  z-index: 2;  
+  transform: translateY(60rpx) translateX(82rpx);  
+}  
+  
+.card_wrap .card_item.card3 {  
+  transform: translateY(30rpx) translateX(100rpx);  
+  z-index: 1;  
+}   
+ .bg_image2 {  
+  left: 80rpx;  
+  top: 80rpx;  
+  position: absolute;  
+  z-index: -2;  
+  display: block;  
+  width: 600rpx;  
+  height: 950rpx;  
+  border-radius: 6rpx;  
+  box-shadow: 6rpx 23rpx 20rpx 10rpx #ccc;  
+}  
+ .bg_image1 {  
+  display: block;  
+  width: 600rpx;  
+  height: 950rpx;  
+  margin-left: 50rpx;  
+  margin-top: 110rpx;  
+  border-radius: 6rpx;  
+  box-shadow: 6rpx 23rpx 20rpx 10rpx #ccc;  
+}   
+  
+.bg_image3 {  
+  left: 110rpx;  
+  position: absolute;  
+  top: 50rpx;  
+  z-index: -3;  
+  display: block;  
+  width: 600rpx;  
+  height: 950rpx;  
+  border-radius: 6rpx;  
+  box-shadow: 6rpx 23rpx 20rpx 10rpx #ccc;  
+}  
+.info{  
+  border: 1px #E3E3E3 solid;  
+  padding: 20rpx;  
+  width: 400rpx;  
+  margin: 15rpx auto;  
+  color: white;  
+  background-color:rgba(0,0,0,0.2);  
+}  
+.name{  
+  font-size: 50rpx;  
+}  
+.recommend_list image{  
+  width:100rpx;height:100rpx;  
+  margin-top: 35rpx;  
+  border-radius: 50%;  
+}  
+.user_title{  
+  margin-top: 45rpx;  
+  margin-left: 40rpx;  
+  font-size: 30rpx;  
+}  
+  

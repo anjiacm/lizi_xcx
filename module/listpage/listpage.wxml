@@ -11,7 +11,7 @@
           <view class='content'>
            啊哈哈哈哈哈哈哈的飞机看大家反馈的咖啡机对方答复的辅导费
           </view>
-          <view class='go_btn'>
+          <view class='go_btn' bindtap='detailres'>
           查看详情
           </view>
         </view>

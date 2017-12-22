@@ -73,6 +73,14 @@
   color: #aab1b3;
   line-height: 40rpx;
 }
+.oneres .headres{
+  width: 680rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
 .oneres .resall{
   width: 680rpx;
   height: 150rpx;

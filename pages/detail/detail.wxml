@@ -1,11 +1,37 @@
-<!-- 单身 -->  
-<block wx:if="{{danshen}}">  
-  <view class="card_wrap">  
-    <view animation="{{animationData}}" class="card_item">  
-      <image class='bg_image1' bindtouchend="slidethis" data-src='{{img_list[0]}}' src="{{img_list[0]}}"></image>  
-    </view>  
+<view class='detail_view'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='scroll_view' indicator-color="rgba(255,255,255,0.2)" indicator-active-color="#ffffff" circular='true'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="scroll_img" />
+      </swiper-item>
+    </block>
+  </swiper>
+  
+    <view class='detail_pay'>
+    <view class='detail_paylike' style="color:#{{likeres}}" bindtap='likedo'>
+        
+    </view>
+    <view class='detail_title'>
+      129。97038282001 麻花针织加厚毛衣
+颜色：红色、杏色   温暖舒适的毛衣就是秋冬的实用单品啦。衣身是菱形和竖条纹路交错 看起来就hin有范。袖口小部分做了竖纹路设计 也比较窄 很显瘦啊
+料子是很柔软的毛线 手感hin好 弹力也很好
+不管外穿还是内搭都能彰显气质的一款毛衣
+也是秋冬大衣的好帮手啦
+ 均码   领围36   肩宽64   胸围116-124   下摆86-94    衣长56    袖长47   袖口20
+    </view>
+  </view>
+   
+  
+   
+</view>
+
+<view class='detail_bar'>
+   <view class='detail_help'>
   </view>  
-  <image class='bg_image2' src="{{img_list[1]}}"></image>  
-  <image class='bg_image3' src="{{img_list[2]}}"></image>  
-</block>  
- 
+  <view class='detail_phone'>
+    联系卖家
+  </view> 
+   <view class='detail_like'>
+  </view> 
+</view>
